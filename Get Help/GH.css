@@ -1,0 +1,248 @@
+body{
+	background: black ;
+}
+
+header{
+	background: /*linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), */url("images/Addicted.jpg");
+	height:100vh;
+	-webkit-background-size : cover;
+	background-position: center center;
+	position:relative;
+	
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+.nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav li {
+	display: inline-block;
+}
+.nav li a {
+	/*color: #fff;*/
+	color:	black;
+	text-decoration: none;
+	padding: 5px 20px ;
+	/*font-family: poppins;*/
+	  font-family: 'Trebuchet MS', sans-serif;
+	font-size: 19px;
+
+}
+.nav li a:hover{
+	background: #fff;
+	color: #333;
+}
+
+
+a {
+color:	black; 
+ }
+
+
+ *,*::before, *::after {
+ 	box-sizing: border-box;
+ 	font-family: Gotham Rounded;
+ }
+ .logo img{
+	width: 350px;
+	float: left;
+	height: auto;
+	margin-top: -100px;
+	margin-left: -30px;
+}
+.rehabs{
+	position: relative;
+	max-width: 1130px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 500px;
+
+	margin-left: 400px;
+	margin-bottom: 200px;
+	position: relative;
+	max-width: 1130px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.rehabs .card1{
+	position: relative;
+	width: calc(33% - 13px);
+	border-radius: 3px;
+	background-color: #fff;
+}
+.rehabs .card2{
+	position: relative;
+	width: calc(33% - 13px);
+	border-radius: 3px;
+	background-color: #fff;
+}
+.rehabs .card3{
+	position: relative;
+	width: calc(33% - 13px);
+	border-radius: 3px;
+	background-color: #fff;
+}
+.rehabs .card1 img{
+	width: 100%;
+	border-radius: 3px;
+}
+.rehabs .card2 img{
+	width: 100%;
+	border-radius: 3px;
+}
+.rehabs .card3 img{
+	width: 100%;
+	border-radius: 3px;
+}
+.rehabs .card1 .content{
+	position: absolute;
+	width: 100%;
+	background: lightblue;
+	bottom: -50%;
+	padding: 10px 20px 22px 20px;
+}
+.rehabs .card2 .content{
+	position: absolute;
+	width: 100%;
+	background: lightblue;
+	bottom: -50%;
+	padding: 10px 20px 22px 20px;
+}
+.rehabs .card3 .content{
+	position: absolute;
+	width: 100%;
+	background: lightblue;
+	bottom: -50%;
+	padding: 10px 20px 22px 20px;
+}
+.card1 .content .row{
+	display: flex;
+	justify-content: space-between;
+}
+.card2 .content .row{
+	display: flex;
+	justify-content: space-between;
+}
+.card3 .content .row{
+	display: flex;
+	justify-content: space-between;
+}
+}
+.content .row .details span{
+font-size: 22px;
+font-weight: 500;
+}
+
+
+
+
+.content .row .details p {
+	color: #333;
+	font-size: 17px;
+	font-weight: 400;
+}
+.content .row .price{
+	font-size: 20px;
+	font-weight: 600;
+	color: #ff7979;
+}
+.content .buttons{
+	margin-left: 20px;
+}
+ .card1 .buttons button{
+ 	outline: none;
+	cursor: pointer;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 17px;
+	font-weight: 500;
+	border-radius: 3px;
+	border : 2px solid #ff7979;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+
+}
+ .card2 .buttons button{
+ 	outline: none;
+	cursor: pointer;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 17px;
+	font-weight: 500;
+	border-radius: 3px;
+	border : 2px solid #ff7979;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+
+}
+ .card3 .buttons button{
+ 	outline: none;
+	cursor: pointer;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 17px;
+	font-weight: 500;
+	border-radius: 3px;
+	border : 2px solid #ff7979;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+
+}
+
+.buttons button:first-child{
+	color: #ff7979;
+	background: #fff;
+	
+}
+button:first-child:hover{
+	color: #fff;
+	background:#ff7979;
+	
+}
+.buttons button:last-child{
+color: #fff;
+	background:#ff7979;	
+
+}
+button:last-child:hover{
+	border-color: #ff6666;
+	background: #ff6666;
+	
+}
+.intro{
+	color: white;
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 50%;
+	text-align: center;
+
+}
+.inscri{
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 28% 50%;
+	text-align: center;
+}
+.city{
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 35% 50%;
+	text-align: center;
+}
+}
