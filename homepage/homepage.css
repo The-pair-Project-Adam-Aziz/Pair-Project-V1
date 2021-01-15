@@ -53,19 +53,27 @@ header{
 }
 .welcome h1{
 text-align: center;
-color: #fff;
-text-transform: uppercase;
-font-size: 30px;
+/*color: #fff;*/
+color: azure;
+font-family: 'Trebuchet MS', sans-serif;
+/*text-transform: uppercase;*/
+font-size: 60px;
+opacity: 0.5;
 }
 .welcome a {
+	color: azure;
 	border: 1px solid #fff;
 	padding: 10px 25px;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 19px;
 	margin-top: 20px;
 	display: inline-block;
+	background-color: #6DA7D9
+	color: azure;
 }
 .welcome a:hover{
-	background: #fff;
+	/*background: #fff;*/
+	background: #6DA7D9;
+
 }
