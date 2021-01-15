@@ -30,13 +30,17 @@ header{
 }
 .nav li a {
 	/*color: #fff;*/
+	border-bottom: 5px solid black;
 	color:	black;
 	text-decoration: none;
 	padding: 5px 20px ;
 	/*font-family: poppins;*/
 	  font-family: 'Trebuchet MS', sans-serif;
-	font-size: 19px;
+	font-size: 25px;
 
+}
+.nav .active{
+    border-bottom: 5px solid green;
 }
 .nav li a:hover{
 	background: #fff;
@@ -44,14 +48,62 @@ header{
 }
 
 
+#btn1,
+#btn2,
+#btn3 {
+ font-size: 40px;
+ font-family: Comic Sans MS, Comic Sans, cursive
+ border: 100px;
+ background-color: green;
+}
+
+p {
+	padding-bottom: 5px;
+	font-size: 40px;
+	font-family: Impact, fantasy;
+	/*margin-bottom: 500px*/
+}
+
+#sousse,
+#djerba,
+#tunis {
+	font-size: 40px
+	/*background-color:;*/
+
+}
+#sousse {
+	background-color: green;
+}
+
+#djerba {
+	background-color: green;
+}
+
+#tunis {
+	background-color: green;
+}
+
+span {
+	font-family: Impact, fantasy;
+}
+
+h4 {
+
+font-family: Luminari, fantasy;
+color: black;
+font-size: 50px
+/*margin-top: 20px;*/
+}
+
 a {
 color:	black; 
+font-size: 
  }
 
 
  *,*::before, *::after {
  	box-sizing: border-box;
- 	font-family: Gotham Rounded;
+ 	font-family: Marker Felt, fantasy;
  }
  .logo img{
 	width: 350px;
@@ -239,10 +291,21 @@ button:last-child:hover{
 	text-align: center;
 }
 .city{
+	/*margin-bottom: -20px*/
 	position: absolute;
 	width: 600px;
 	height: 300px;
 	margin: 35% 50%;
 	text-align: center;
 }
+}
+#subtex{
+	color: white ;
+}
+#subbtn{
+	margin-right: 45%
+}
+
+#subbtn2{
+	margin-right: 45%;
 }
