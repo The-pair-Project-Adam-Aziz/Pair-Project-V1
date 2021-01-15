@@ -1,3 +1,4 @@
+// $(document).ready(function () {
 $(".inscri").hide();
 $(".city").hide();
 $(".card1").hide();
