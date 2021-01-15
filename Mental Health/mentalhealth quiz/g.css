@@ -1,26 +1,84 @@
 body{
-	background-color: pink;
+	margin: 0PX;
+	padding:0px;
+	 background-image: url(images/mhback2.png);
+	 /*background-size: auto;*/
+	 
+	height: 50%;
 	color: black;
 	font-size: 20px;
 	font-weight: bolder;
 	margin-left: 2rem;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-#btn{
-	background-color: black;
-	color: white;
-	font-size: 18px;
-	padding: 5px;
+}
+#btn5{
+	width: 20%;
+	height: 10%;
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #2196f3;
+	text-transform: uppercase;
+	font-size: hidden;
+
+	transition: 0.5s;
+}
+#btn5 {
+	color: pink;
+	background:red;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3,0 0 80px #2196f3;
+	transition-delay: 1s;
+	margin-left: 10%;
 }
 button{
 	background-color: black;
 	color: white;
-	font-size: 18px;
+	font-size: 40px;
 	padding: 5px;
 }
 img{
-	width: 20%
+	/*width: 20%*/
+	border: solid black;
+	display: inline-block;
 }
 .aziz{
 	margin-left: 22%;
 	margin-bottom :20%;
 }
+
+.adam,
+.aziz {
+  float: left;
+  /*height: 100%;*/
+
+  width: 33.33%;
+  padding: 5px;
+
+}
+
+#btnsend,
+#btnsend1 {
+	background-color: cadetblue;
+	font-size: 40px
+}
+
+
+p   {
+	font-family: cursive;
+	font-size: 25px
+}
+
+
+input,
+#input1,
+#input2 {
+	size:40px;
+}
+
+
+
+
+
