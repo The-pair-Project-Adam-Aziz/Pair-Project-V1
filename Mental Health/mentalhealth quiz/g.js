@@ -57,12 +57,12 @@ function check() {
 	if (question8==="vv8v") {i=i+1};
 	if (i<8) {
 $("#btn1").show(1200);
-result.textContent = 'your score is '+ i +' talk to a doctor ASAP'
+result.textContent = 'Your score is : '+ i +'  You Need To See to a Doctor ASAP'
 }	if (17>i&&i>8) {
-result.textContent = 'your score is '+ i +" don't be hard on yourself"
+result.textContent = 'your score is : '+ i +" don't be hard on yourself"
 }	
     if (i>17) {
-result.textContent = 'your score is '+ i +' stay the way you are :D'
+result.textContent = 'your score is :  '+ i +' stay the way you are :D'
 }
 $("#quiz").hide(600);
 $(".note").show(1200);
