@@ -8,7 +8,7 @@
 	width: 1170px;
 	margin: auto;
 }
-header{
+body{
 	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/screen.jpg");
 	height:100vh;
 	-webkit-background-size : cover;
@@ -16,6 +16,27 @@ header{
 	position:relative;
 	
 
+}
+button{
+	background-color: black;
+	color: white;
+	font-size: 40px;
+	padding: 5px;
+}
+#btn1{
+	margin-top: 10%;
+
+}
+#p {
+	margin-left: 350px;
+	color:azure;
+	font-family: cursive;
+}
+#i{
+	margin-left: 26%
+}
+.donate{
+margin-left: 80px;
 }
 .nav{
 	float: right;
